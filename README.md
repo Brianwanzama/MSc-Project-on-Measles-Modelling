@@ -36,16 +36,15 @@ Msc_project/
 ├── code/
 │   ├── R/
 │   │   ├── 01_data_prep/
-│   │   │   |
-│   │   │   ├── tsir_wb_process_V1V2.R
+│   │   │   ├── tsir_functions
 │   │   │   ├── tsir_wb_run_V1V2.R
 │   │   │   ├── tsir_susceptibles_gen_V1V2.R
+|   |   |   ├── tsir_wb_process_V1V2.R
 │   │   │   ├── optimal_basic_nn_process.R     # post-process SFNN runs
 │   │   │   └── cases_process.R                # reported-cases processing
 │   │   │
 │   │   ├── 02_figures/
 │   │   │   ├── optimal_compare_plots.R        # Fig 2: SFNN vs TSIR
-│   │   │   |
 │   │   │   ├── wb_city_performance_plot.R
 │   │   │   ├── wb_population_rmse.R           # was "Population plots rmse.R"
 │   │   │   ├── wb_sfnn_feature_importance.R
@@ -139,23 +138,6 @@ Rscript code/R/03_counterfactual/wb_counterfactual_all_cities.R
 
 ---
 
-## Figure Targets
-
-Each thesis figure maps to a single script or `make` target.
-
-| Figure | Script / target | Output |
-|--------|-----------------|--------|
-| **Fig 1** — Feedforward network architecture | `make createfig1` | `output/figures/feedforward_network_structure.png` |
-| **Fig 2** — SFNN vs TSIR RMSE (reg. & gain, faceted by *k*) | `make createfig2` | `output/figures/rmse_reg_and_gain_nn_tsir_k_facet.png` |
-| PINN loss-weight sweep | `wb_pinn_sweep_fig.R` | `output/figures/` |
-| Latent susceptible (S_latent) | `wb_s_latent_fig.R` | `output/figures/` |
-| City RMSE (publication) | `wb_city_rmse_pub.R` | `output/figures/` |
-| City performance | `wb_city_performance_plot.R` | `output/figures/` |
-| Population RMSE | `wb_population_rmse.R` | `output/figures/` |
-| SFNN feature importance | `wb_sfnn_feature_importance.R` | `output/figures/` |
-| PINN final analysis | `wb_pinn_final_analysis.R` | `output/figures/` |
-| PINN constrained analysis | `wb_pinn_constrained_analysis.R` | `output/figures/` |
-| Counterfactual (all cities) | `wb_counterfactual_all_cities.R` | `output/figures/` |
 
 ### `createfig1` — network architecture
 
