@@ -4,7 +4,7 @@
 # in Post-Vaccination West Bengal
 #
 # MSc Thesis — IIT Bombay
-# Student: Einstein (Roll 24N0269)
+# Student: Brian Wanzama (Roll 24N0269)
 # Supervisor: Prof. Siuli Mukhopadhyay
 #
 # Scripts must be run in the order listed below.
