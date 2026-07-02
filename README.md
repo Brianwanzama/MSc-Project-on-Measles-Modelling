@@ -1,6 +1,6 @@
 # Deep Neural Network Modelling of Endemic Measles Dynamics in Post-Vaccination West Bengal
 
-**MSc Thesis — IIT Bombay, Department of Mathematics**
+**MSc Project — IIT Bombay, Department of Mathematics**
 **Student:** Brian Wanzama (Roll No. 24N0269)
 **Supervisor:** Prof. Siuli Mukhopadhyay
 **Year:** 2026
